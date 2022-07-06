@@ -1,3 +1,26 @@
-1
+namespace Ca1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Program p = new Program();
+            string simpleString = "abcdefg";
 
-3
+            Console.WriteLine(p.getLastChar(simpleString));
+            Console.WriteLine(p.getRanChar(simpleString));
+
+            Console.ReadLine();
+        }
+
+        private char getLastChar(string str)
+        {
+            return 'a';
+        }
+
+        private char getRanChar(string str)
+        {
+            return 'a';
+        }
+   }
+}
