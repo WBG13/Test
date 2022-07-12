@@ -14,7 +14,7 @@ namespace Ca1
         }
 
         private char getLastChar(string str) {
-            return 'a';
+            return 'a'; 
         }
 
         private char getRanChar(string str) {
