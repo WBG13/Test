@@ -18,7 +18,7 @@ namespace Ca1
         }
 
         private char getRanChar(string str) {
-            Random r = new Random(); 
+            Random r = new Random();  
             return str.Length > 0 ? str[r.Next(0 , str.Length - 1)]: 'a';
         }
    }
